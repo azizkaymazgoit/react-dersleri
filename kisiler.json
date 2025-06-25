@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "ad": "Ahmet",
+    "soyad": "Yilmaz",
+    "yas": 34,
+    "meslek": "Muhendis",
+    "durum": "offline"
+  },
+  {
+    "id": 2,
+    "ad": "Mehmet",
+    "soyad": "Demir",
+    "yas": 27,
+    "meslek": "Doktor",
+    "durum": "online"
+  },
+  {
+    "id": 3,
+    "ad": "Ayse",
+    "soyad": "Kara",
+    "yas": 22,
+    "meslek": "Ogrenci",
+    "durum": "offline"
+  },
+  {
+    "id": 4,
+    "ad": "Zeynep",
+    "soyad": "Sahin",
+    "yas": 45,
+    "meslek": "Avukat",
+    "durum": "online"
+  },
+  {
+    "id": 5,
+    "ad": "Ali",
+    "soyad": "Arslan",
+    "yas": 30,
+    "meslek": "Grafik Tasarimci",
+    "durum": "offline"
+  },
+  {
+    "id": 6,
+    "ad": "Fatma",
+    "soyad": "Celik",
+    "yas": 38,
+    "meslek": "Mufettis",
+    "durum": "online"
+  },
+  {
+    "id": 7,
+    "ad": "Mehmet",
+    "soyad": "Ozkan",
+    "yas": 29,
+    "meslek": "Egitmen",
+    "durum": "offline"
+  },
+  {
+    "id": 8,
+    "ad": "Emine",
+    "soyad": "Aydin",
+    "yas": 25,
+    "meslek": "Hekim",
+    "durum": "online"
+  }
+]
