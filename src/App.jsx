@@ -1,11 +1,12 @@
-import Hero from "./components/Hero";
 import Kisiler from "./components/Kisiler";
+import Paragraf from "./components/Paragraf/Paragraf";
+import Title from "./components/Title/Title";
 
 function App() {
   return (
     <>
-      <h1>Burası App Componenti</h1>
-      <Hero />
+      <Title underline={"baslik"} active={true} />
+      <Paragraf renk={"mavi"} />
       <Kisiler />
     </>
   );

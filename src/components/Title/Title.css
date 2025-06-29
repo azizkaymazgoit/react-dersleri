@@ -1,0 +1,13 @@
+.title {
+    color: red;
+    border: 1px solid red;
+    background-color: gray;
+}
+
+.baslik {
+    text-decoration: underline;
+}
+
+.aziz {
+    color: green;
+}
