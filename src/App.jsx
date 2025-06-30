@@ -1,13 +1,10 @@
-import Kisiler from "./components/Kisiler";
-import Paragraf from "./components/Paragraf/Paragraf";
-import Title from "./components/Title/Title";
+import Button from "./components/Button";
+import Kordinat from "./components/Kordinat";
 
 function App() {
   return (
     <>
-      <Title underline={"baslik"} active={true} />
-      <Paragraf renk={"mavi"} />
-      <Kisiler />
+      <Kordinat />
     </>
   );
 }
