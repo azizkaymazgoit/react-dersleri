@@ -1,10 +1,19 @@
+import { useState } from "react";
 import Button from "./components/Button";
-import Kordinat from "./components/Kordinat";
 
 function App() {
+  const [goster, setGoster] = useState(true);
+
+  const handleGizle = () => {
+    setGoster(!goster);
+  };
+
   return (
     <>
-      <Kordinat />
+      {/* <button onClick={handleGizle} style={{ marginBottom: "10px" }}>
+        Gizle / Goster
+      </button> */}
+      {goster && <Button />}
     </>
   );
 }
