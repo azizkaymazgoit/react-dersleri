@@ -1,19 +1,15 @@
-import { useState } from "react";
-import Button from "./components/Button";
+import Check from "./components/Check";
+import CheckBox from "./components/CheckBox";
+import Radio from "./components/Radio";
+import Select from "./components/Select";
+import SelectBox from "./components/SelectBox";
 
 function App() {
-  const [goster, setGoster] = useState(true);
-
-  const handleGizle = () => {
-    setGoster(!goster);
-  };
-
   return (
     <>
-      {/* <button onClick={handleGizle} style={{ marginBottom: "10px" }}>
-        Gizle / Goster
-      </button> */}
-      {goster && <Button />}
+      <div>
+        <Check />
+      </div>
     </>
   );
 }
