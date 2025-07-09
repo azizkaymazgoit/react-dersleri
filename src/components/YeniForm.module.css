@@ -1,0 +1,22 @@
+.formflex {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.formflex .formitem {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.error {
+    color: orangered;
+}

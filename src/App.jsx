@@ -1,14 +1,10 @@
-import Check from "./components/Check";
-import CheckBox from "./components/CheckBox";
-import Radio from "./components/Radio";
-import Select from "./components/Select";
-import SelectBox from "./components/SelectBox";
+import YeniForm from "./components/YeniForm";
 
 function App() {
   return (
     <>
       <div>
-        <Check />
+        <YeniForm />
       </div>
     </>
   );
