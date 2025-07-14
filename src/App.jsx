@@ -1,10 +1,11 @@
+import Makaleler from "./components/Makaleler";
 import YeniForm from "./components/YeniForm";
 
 function App() {
   return (
     <>
       <div>
-        <YeniForm />
+        <Makaleler />
       </div>
     </>
   );
