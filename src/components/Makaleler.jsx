@@ -32,6 +32,7 @@ const Makaleler = () => {
       setYukleniyor(false);
     } catch (error) {
       setHata(true);
+      console.log(error);
     } finally {
       setYukleniyor(false);
     }

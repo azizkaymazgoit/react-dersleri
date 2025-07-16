@@ -1,11 +1,12 @@
-import Makaleler from "./components/Makaleler";
-import YeniForm from "./components/YeniForm";
+import Kisi from "./components/Kisi";
+import RefDeneme from "./components/RefDeneme";
 
 function App() {
   return (
     <>
       <div>
-        <Makaleler />
+        <RefDeneme />
+        <Kisi />
       </div>
     </>
   );

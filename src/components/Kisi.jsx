@@ -1,4 +1,8 @@
+import { useDil } from "../hooks/DilContext";
+
 function Kisi({ isim, soyad, meslek, durum }) {
+  const { dil } = useDil();
+
   return (
     <div
       style={{
@@ -8,6 +12,7 @@ function Kisi({ isim, soyad, meslek, durum }) {
       }}
     >
       <h3>
+        {dil}
         {isim} {soyad}
       </h3>
       <h4>{meslek}</h4>
