@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import Kisi from "./components/Kisi";
 import RefDeneme from "./components/RefDeneme";
 
