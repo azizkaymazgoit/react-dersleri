@@ -1,0 +1,44 @@
+.urunDetayContainer {
+  padding: 40px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.urunDetayContainer h2 {
+  color: #333;
+}
+
+.urunResmi {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.fiyat {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.geriGitButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.geriGitButton:hover {
+  background-color: #0056b3;
+}

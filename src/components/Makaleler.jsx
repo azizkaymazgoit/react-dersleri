@@ -1,6 +1,7 @@
 import { Formik, Form, Field } from "formik";
 import { useEffect, useState } from "react";
 import { getMakale } from "../makale-api";
+import { useSearchParams } from "react-router";
 
 const Makaleler = () => {
   /* const istek = axios.get(API_URL).then((res) => {
@@ -11,15 +12,21 @@ const Makaleler = () => {
   const [yukleniyor, setYukleniyor] = useState(false);
   const [hata, setHata] = useState(false);
 
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const aranan = searchParams.get("q");
+
   const formBaslangic = {
-    search: "",
+    search: aranan ? aranan : "",
   };
 
   useEffect(() => {
-    dataCek("react");
+    const sorgu = aranan ? aranan : "react";
+    dataCek(sorgu);
   }, []);
 
   const handleSubmit = (v, a) => {
+    setSearchParams({ q: v.search });
     dataCek(v.search);
     a.resetForm();
   };

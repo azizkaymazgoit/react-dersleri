@@ -15,6 +15,9 @@ const Header = () => {
       <NavLink style={activeFunc} to={"/hakkimizda"}>
         Hakkımızda
       </NavLink>
+      <NavLink style={activeFunc} to={"/urunler"}>
+        Ürünler
+      </NavLink>
       <NavLink style={activeFunc} to={"/iletisim"}>
         İletişim
       </NavLink>

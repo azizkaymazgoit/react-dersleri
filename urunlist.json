@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "isim": "Dizüstü Bilgisayar",
+    "aciklama": "16GB RAM, 512GB SSD, Intel i7 işlemci",
+    "resim": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 2,
+    "isim": "Kablosuz Kulaklık",
+    "aciklama": "Bluetooth 5.2, Gürültü Engelleme",
+    "resim": "https://images.unsplash.com/photo-1578319439584-104c94d37305?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "isim": "Akıllı Telefon",
+    "aciklama": "128GB, 6.5 inç AMOLED ekran",
+    "resim": "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

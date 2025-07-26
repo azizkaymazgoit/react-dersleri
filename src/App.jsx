@@ -1,13 +1,21 @@
-import { Link } from "react-router";
-import Kisi from "./components/Kisi";
-import RefDeneme from "./components/RefDeneme";
+import { useNavigate, useSearchParams } from "react-router";
+import Makaleler from "./components/Makaleler";
 
 function App() {
+  /* 
+  const git = useNavigate();
+
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const utm = searchParams.get("utm");
+
+  console.log("utm", utm);
+  console.log("reklam 1 kere tıklandı"); */
+
   return (
     <>
       <div>
-        <RefDeneme />
-        <Kisi />
+        <Makaleler />
       </div>
     </>
   );
