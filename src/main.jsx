@@ -5,6 +5,9 @@ import "./index.css";
 import App from "./App.jsx";
 import { DilProvider } from "./hooks/DilContext.jsx";
 import { BrowserRouter, Route, Routes } from "react-router";
+import { Provider } from "react-redux";
+import { store } from "./redux/store.js";
+import Todo from "./pages/Todo.jsx";
 
 /* import Hakkimizda from "./pages/Hakkimizda.jsx";
 import Iletisim from "./pages/Iletisim.jsx";
@@ -27,7 +30,7 @@ const Urunler = lazy(() => import("./pages/Urunler.jsx"));
 const UrunDetay = lazy(() => import("./pages/UrunDetay.jsx"));
 
 createRoot(document.getElementById("root")).render(
-  <DilProvider>
+  <Provider store={store}>
     <BrowserRouter>
       <Header />
       <Suspense fallback={<div>yükleniyor...</div>}>
@@ -46,11 +49,28 @@ createRoot(document.getElementById("root")).render(
           <Route path="/urunler" element={<Urunler />} />
           <Route path="/urun/:id" element={<UrunDetay />} />
 
+          <Route path="/todo" element={<Todo />} />
+
           <Route path="/user/:userId" element={<User />} />
           <Route path="/kategori/:kategoriAdi" element={<Kategori />} />
           <Route path="*" element={"404 sayfası"} />
         </Routes>
       </Suspense>
     </BrowserRouter>
-  </DilProvider>
+  </Provider>
 );
+
+// store, action, reducer
+
+// store: bir mağaza, bir app, bir restoran, havuz
+// slice: restoranı kategorize edebilmek için her bir bölüm
+// action: sipariş alınabilir, patates doğranabilri, servis açıalbilri,
+// reducer: siparişi yapmak aşaması
+
+// restoran: store
+// mutfak: slice
+// mutfağın patates sayısı azalabilri: action
+// mutfakta yemek yapılabilir: action
+// mutfakta yemek yapan aşçı, onu kontrol edip yemeği hazır hale getirmesi: reducer
+// bahçe
+// bahçenin yapabilecekleri
